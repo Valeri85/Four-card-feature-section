@@ -13,11 +13,11 @@
 		<link rel="preload" as="font" type="font/woff2" href="assets/fonts/poppins-v19-latin-600.woff2" crossorigin />
 		<link rel="preload" as="font" type="font/woff" href="assets/fonts/poppins-v19-latin-600.woff" crossorigin />
 		<!-- 4) Preload css -->
-		<link rel="preload" as="style" href="css/style.min.css" />
+		<!-- <link rel="preload" as="style" href="css/style.min.css" /> -->
 		<!-- 5) Title -->
 		<title>Frontend Mentor | Four card feature section</title>
 		<!-- 6) Favicon -->
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png" />
 		<!-- 7) Author -->
 		<meta name="author" content="Valeri Makaridze" />
 		<!-- 8) Description -->
@@ -51,11 +51,77 @@
 		<!-- <link rel="stylesheet" href="css/style.min.css" /> -->
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
+
+	<!-- Body -->
 	<body>
-		Reliable, efficient delivery Powered by Technology Our Artificial Intelligence powered tools use millions of project data
-		points to ensure that your project is successful Supervisor Monitors activity to identify project roadblocks Team Builder
-		Scans our talent network to create the optimal team for your project Karma Regularly evaluates our talent to ensure
-		quality Calculator Uses data from past projects to provide better delivery estimates
+		<!-- Header -->
+		<header class="header">
+			<h1 class="header__title">Reliable, efficient delivery</h1>
+			<h2 class="header__subtitle">Powered by Technology</h2>
+			<p class="header__text">
+				Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is
+				successful
+			</p>
+		</header>
+
+		<!-- Cards -->
+		<main class="main">
+			<!-- Card 1 -->
+			<section class="main__card main__card--supervisor">
+				<h3 class="main__card-title">Supervisor</h3>
+				<p class="main__card-text">Monitors activity to identify project roadblocks</p>
+				<img
+					class="main__card-icon"
+					src="assets/images/icons/icon-supervisor.svg"
+					width="64"
+					height="64"
+					alt=""
+					aria-hidden="true"
+				/>
+			</section>
+
+			<!-- Card 2 -->
+			<section class="main__card main__card--builder">
+				<h3 class="main__card-title">Team Builder</h3>
+				<p class="main__card-text">Scans our talent network to create the optimal team for your project</p>
+				<img
+					class="main__card-icon"
+					src="assets/images/icons/icon-team-builder.svg"
+					width="64"
+					height="64"
+					alt=""
+					aria-hidden="true"
+				/>
+			</section>
+
+			<!-- Card 3 -->
+			<section class="main__card main__card--karma">
+				<h3 class="main__card-title">Karma</h3>
+				<p class="main__card-text">Regularly evaluates our talent to ensure quality</p>
+				<img
+					class="main__card-icon"
+					src="assets/images/icons/icon-karma.svg"
+					width="64"
+					height="64"
+					alt=""
+					aria-hidden="true"
+				/>
+			</section>
+
+			<!-- Card 4 -->
+			<section class="main__card main__card--calculator">
+				<h3 class="main__card-title">Calculator</h3>
+				<p class="main__card-text">Uses data from past projects to provide better delivery estimates</p>
+				<img
+					class="main__card-icon"
+					src="assets/images/icons/icon-calculator.svg"
+					width="64"
+					height="64"
+					alt=""
+					aria-hidden="true"
+				/>
+			</section>
+		</main>
 
 		<!-- Footer -->
 		<footer class="footer">

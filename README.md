@@ -48,8 +48,15 @@ Users should be able to:
 
 ### Useful resources
 
--   [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--   [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-   [browser-sync](https://www.npmjs.com/package/browser-sync) - npm package for live server.
+-   [copyfiles](https://www.npmjs.com/package/copyfiles) - npm package. copy files easily.
+-   [npm-run-all](https://www.npmjs.com/package/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
+-   [onchange](https://www.npmjs.com/package/onchange) - Use glob patterns to watch file sets and run a command when anything is added, changed or deleted.
+-   [sass](https://www.npmjs.com/package/sass) - npm package is a distribution of Dart Sass. Sass makes CSS fun again.
+-   [postcss](https://postcss.org/) - A tool for transforming CSS with JavaScript.
+-   [postcss-cli](https://www.npmjs.com/package/postcss-cli) - Postcss from command line.
+-   [autoprefixer](https://www.npmjs.com/package/autoprefixer) - PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
+-   [group-css-media-queries](https://www.npmjs.com/package/group-css-media-queries) CSS postprocessing: group media queries.
 
 ## Author
 

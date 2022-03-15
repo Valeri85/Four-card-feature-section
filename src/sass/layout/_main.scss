@@ -2,8 +2,9 @@
 @use '../helpers/mixins' as *;
 
 .main {
+	display: grid;
+	place-items: center;
 	@include desktop {
-		display: grid;
 		grid:
 			'supervisor builder calculator'
 			'supervisor karma calculator'
@@ -20,9 +21,6 @@
 		background-color: var(--very-light-gray);
 		border-radius: em(6);
 		box-shadow: 0 15px 15px 0 var(--shadow);
-		@include desktop {
-			place-self: center;
-		}
 		&--supervisor {
 			border-top: 3.5px solid var(--cyan);
 			@include desktop {

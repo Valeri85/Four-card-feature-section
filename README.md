@@ -56,7 +56,7 @@ Users should be able to:
 -   [postcss](https://postcss.org/) - A tool for transforming CSS with JavaScript.
 -   [postcss-cli](https://www.npmjs.com/package/postcss-cli) - Postcss from command line.
 -   [autoprefixer](https://www.npmjs.com/package/autoprefixer) - PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
--   [group-css-media-queries](https://www.npmjs.com/package/group-css-media-queries) CSS postprocessing: group media queries.
+-   [group-css-media-queries](https://www.npmjs.com/package/group-css-media-queries) - CSS postprocessing: group media queries.
 
 ## Author
 

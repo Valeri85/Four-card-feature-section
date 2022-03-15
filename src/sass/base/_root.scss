@@ -10,4 +10,8 @@
 
 	/* Font Family */
 	--ff: Poppins, sans-serif;
+
+	/* Typography */
+	--font-size-title: clamp(2.4rem, 2.5vw + 1rem, 3.5rem);
+	--font-size-subtitle: clamp(2.5rem, 2.5vw + 1rem, 3.63rem);
 }

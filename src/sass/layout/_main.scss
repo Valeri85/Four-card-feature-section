@@ -2,26 +2,50 @@
 @use '../helpers/mixins' as *;
 
 .main {
+	@include desktop {
+		display: grid;
+		grid:
+			'supervisor builder calculator'
+			'supervisor karma calculator'
+			/ 33.333% 33.333% 33.333%;
+		padding-inline: 10em;
+	}
 	&__card {
 		--very-light-gray: hsl(0, 0%, 100%);
 		--shadow: hsl(0, 0%, 87.5%);
 
+		width: min(100%, em(375));
 		margin-bottom: 1.75em;
 		padding: 2em;
 		background-color: var(--very-light-gray);
 		border-radius: em(6);
 		box-shadow: 0 15px 15px 0 var(--shadow);
+		@include desktop {
+			place-self: center;
+		}
 		&--supervisor {
 			border-top: 3.5px solid var(--cyan);
+			@include desktop {
+				grid-area: supervisor;
+			}
 		}
 		&--builder {
 			border-top: 3.5px solid var(--red);
+			@include desktop {
+				grid-area: builder;
+			}
 		}
 		&--karma {
 			border-top: 3.5px solid var(--orange);
+			@include desktop {
+				grid-area: karma;
+			}
 		}
 		&--calculator {
 			border-top: 3.5px solid var(--blue);
+			@include desktop {
+				grid-area: calculator;
+			}
 		}
 		&-title {
 			margin-bottom: 0.25em;
